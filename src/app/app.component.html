@@ -1,1 +1,3 @@
+
+<app-person-form (newPerson)="people.push($event)"></app-person-form>
 <app-person *ngFor="let person of people; index as i" [person]="person" (deleteMe)="deletePerson($event)"></app-person>
