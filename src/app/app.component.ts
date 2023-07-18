@@ -9,6 +9,7 @@ import * as data from './persons.json';
 })
 export class AppComponent implements OnInit {
   people: Person[] = (data as any).default;
+  
 
   ngOnInit() {
     console.log(this.people);
